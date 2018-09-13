@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="380dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView14"
+                style="@style/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Old Manila Day Walks" />
+
+            <TextView
+                android:id="@+id/textView15"
+                style="@style/Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Feast on some of the famous views of Manila." />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="246dp"
+            android:layout_height="89dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pic2" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="188dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                style="@style/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Smokey Tours" />
+
+            <TextView
+                android:id="@+id/textView13"
+                style="@style/Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have a taste of some of the delicacies in the philippines." />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="246dp"
+            android:layout_height="89dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pic1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="170dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="255dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView10"
+                style="@style/Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Quiapo Church" />
+
+            <TextView
+                android:id="@+id/textView11"
+                style="@style/Content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="One of the most famous church in the Philippines. A place to visit when going to Manila." />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="246dp"
+            android:layout_height="89dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/pic3" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
